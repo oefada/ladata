@@ -1,0 +1,38 @@
+{
+	"name": "Onjefu/citydata",
+    "description": "Project to consume data from the City of Los Angeles",
+    "version": "0.1.0",
+    "type": "library",
+    "keywords": ["Los Angeles", "California", "LA"],
+    "homepage": "http://gitub.com/onjefu/ladata",
+    "time": "2015-12-21",
+    "license": "MIT",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "http://github.com/onjefu/"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Monolog": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-0": {
+            "MyPackage\\Tests": "test/"
+        }
+    },
+    "require": {
+        "monolog/monolog": "1.0.*",
+        "symfony/http-foundation": "3.0"
+
+    },
+    "require-dev": {
+    },
+
+    "config": {
+    "optimize-autoloader": true
+  }
+}
+
